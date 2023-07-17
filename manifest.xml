@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>babca8f3-7ee7-46d3-b397-9418441d1bb9</Id>
-  <Version>3.0.0.0</Version>
+  <Version>5.0.0.0</Version>
   <ProviderName>Contoso</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="ACES Link Library"/>
   <Description DefaultValue="A productivity add-in designed to enable ACES Group members to seamlessly navigate to specific websites directly from their Outlook application, enhancing their browsing efficiency."/>
-  <IconUrl DefaultValue="https://raw.githubusercontent.com/ACESGroupDev/ACESLinkHub/702928b8d00ca6375a72f88cc9df5755bf6c4759/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/ACESGroupDev/ACESLinkHub/702928b8d00ca6375a72f88cc9df5755bf6c4759/assets/icon-128.png"/>
+  <IconUrl DefaultValue="https://acesgroupdev.github.io/aceslinkhub.github.io/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://acesgroupdev.github.io/aceslinkhub.github.io/assets/icon-128.png"/>
   <SupportUrl DefaultValue="https://www.acesgroup.com/"/>
   <AppDomains>
     <AppDomain>https://www.acesgroup.com</AppDomain>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://raw.githubusercontent.com/ACESGroupDev/ACESLinkHub/702928b8d00ca6375a72f88cc9df5755bf6c4759/taskpane.html"/>
+        <SourceLocation DefaultValue="https://acesgroupdev.github.io/aceslinkhub.github.io/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -73,12 +73,12 @@
         </Hosts>
         <Resources>
             <bt:Images>
-              <bt:Image id="Icon.16x16" DefaultValue="https://raw.githubusercontent.com/ACESGroupDev/ACESLinkHub/702928b8d00ca6375a72f88cc9df5755bf6c4759/assets/icon-16.png"/>
-              <bt:Image id="Icon.32x32" DefaultValue="https://raw.githubusercontent.com/ACESGroupDev/ACESLinkHub/702928b8d00ca6375a72f88cc9df5755bf6c4759/assets/icon-32.png"/>
-              <bt:Image id="Icon.80x80" DefaultValue="https://raw.githubusercontent.com/ACESGroupDev/ACESLinkHub/702928b8d00ca6375a72f88cc9df5755bf6c4759/assets/icon-80.png"/>
+              <bt:Image id="Icon.16x16" DefaultValue="https://acesgroupdev.github.io/aceslinkhub.github.io/assets/icon-16.png"/>
+              <bt:Image id="Icon.32x32" DefaultValue="https://acesgroupdev.github.io/aceslinkhub.github.io/assets/icon-32.png"/>
+              <bt:Image id="Icon.80x80" DefaultValue="https://acesgroupdev.github.io/aceslinkhub.github.io/assets/icon-80.png"/>
             </bt:Images>
             <bt:Urls>
-              <bt:Url id="Taskpane.Url" DefaultValue="https://raw.githubusercontent.com/ACESGroupDev/ACESLinkHub/702928b8d00ca6375a72f88cc9df5755bf6c4759/taskpane.html"/>
+              <bt:Url id="Taskpane.Url" DefaultValue="https://acesgroupdev.github.io/aceslinkhub.github.io/taskpane.html"/>
             </bt:Urls>
             <bt:ShortStrings>
               <bt:String id="GroupLabel" DefaultValue="ACES Add-ins"/>
